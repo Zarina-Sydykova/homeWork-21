@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ExceptionCatch {
+public class ExceptionCatch extends Exception{
+    public ExceptionCatch(String message) {
+        super(message);
+    }
 }
